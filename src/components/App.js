@@ -1,12 +1,12 @@
 
-import Gallery from "./Gallery";
-import Header from "./Header";
-import HomeBanner from "./HomeBanner";
+import MainWrapper from "./MainWrapper";
+import Footer from "./Footer";
+
 
 
 function App() {
   return (
-    <div><Header /><HomeBanner /><Gallery /></div>
+    <div><MainWrapper /><Footer /></div>
   );
 }
 
