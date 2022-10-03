@@ -1,11 +1,12 @@
 
+import Gallery from "./Gallery";
 import Header from "./Header";
 import HomeBanner from "./HomeBanner";
 
 
 function App() {
   return (
-    <div><Header /><HomeBanner /></div>
+    <div><Header /><HomeBanner /><Gallery /></div>
   );
 }
 
