@@ -1,10 +1,11 @@
 
 import Header from "./Header";
+import HomeBanner from "./HomeBanner";
 
 
 function App() {
   return (
-    <div><Header /></div>
+    <div><Header /><HomeBanner /></div>
   );
 }
 

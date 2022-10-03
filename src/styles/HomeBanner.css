@@ -1,0 +1,32 @@
+
+
+.homeBanner {
+    margin-top: 80px;
+}
+
+.homeBanner-bg, .homeBanner-layer {
+width: 1240px;
+height: 223px;
+border-radius: 30px;
+position: relative;
+
+}
+
+.homeBanner-layer
+{
+    background: #000000;
+    position: absolute;
+    top: 188px;
+    opacity: 0.4;
+}
+
+.homeBanner-text {
+    width: 705px;
+    height: 68px;
+    font-size: 48px;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+    color: #FFFFFF;
+
+}
