@@ -1,0 +1,22 @@
+.header-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.home-link {
+    margin-right: 50px;
+}
+
+.home-link, .about-link {
+    text-decoration: none;
+    color: #FF6060;
+    font-family: 'Montserrat', 'Arial', 'serif';
+    font-size: 24px;
+}
+
+.home-link:hover, .about-link:hover {
+   text-decoration: underline;
+   
+}
