@@ -4,11 +4,14 @@
     margin-top: 80px;
 }
 
-.homeBanner-bg, .homeBanner-layer {
+.homeBanner-bg {
+    position: relative;
+}
+
+.homeBanner-image, .homeBanner-layer {
 width: 1240px;
 height: 223px;
 border-radius: 25px;
-position: relative;
 
 }
 
@@ -16,7 +19,7 @@ position: relative;
 {
     background: #000000;
     position: absolute;
-    top: 188px;
+    top: 0;
     opacity: 0.4;
 }
 
@@ -25,8 +28,8 @@ position: relative;
     height: 68px;
     font-size: 48px;
     position: absolute;
-    top: 260px;
-    left: 500px;
+    top: 75px;
+    left: 300px;
     color: #FFFFFF;
 
 }
