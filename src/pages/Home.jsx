@@ -1,12 +1,12 @@
 import React from 'react';
-import MainWrapper from '../components/MainWrapper';
+import HomeMainWrapper from '../components/homepage/HomeMainWrapper';
 import Footer from '../components/Footer';
 
 function Home() {
     return (
         <div>
         <h1>this is the homepage</h1>
-        <MainWrapper /><Footer />
+        <HomeMainWrapper /><Footer />
         </div>
     );
 }

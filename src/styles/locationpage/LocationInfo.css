@@ -1,0 +1,89 @@
+
+.info-bigwrapper {
+
+    width: 1240px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.location-info, .owner-info {
+    display: flex;
+    position: relative;
+}
+
+.location-info {
+    width: 635px;
+    height: 90px;
+}
+
+.owner-info {
+    width: 200px;
+    height: 130px;
+}
+
+.location-title {
+    width: 635px;
+    font-size: 36px;
+    font-weight: normal;
+    color: #FF6060;
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.location-subtitle, .owner-name {
+    font-size: 18px;
+    color: #FF6060;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.owner-name {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 45px;
+    text-align: right;
+}
+
+.grey-circle {
+    background: #C4C4C4;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.five-stars {
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 20px;
+   
+}
+
+.tags-section {
+    width: 1035px;
+    margin-top: -40px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tag-cozy, .tag-canal, .tag-paris {
+    width: 115px;
+    height: 25px;
+    background: #FF6060;
+    margin-right: 10px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
