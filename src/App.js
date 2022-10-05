@@ -1,11 +1,11 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "../pages/About";
-import Home from "../pages/Home";
-import Layout from "../pages/Layout";
-import LocationPage from "../pages/LocationPage";
-import Navbar from "../pages/Navbar";
-import NoPage from "../pages/NoPage";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Layout from "./pages/Layout";
+import LocationPage from "./pages/LocationPage";
+import NoPage from "./pages/NoPage";
+
 
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="location" element={<LocationPage />} />
-          <Route path="navbar" element={<Navbar />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

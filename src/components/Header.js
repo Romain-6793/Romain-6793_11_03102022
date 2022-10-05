@@ -1,6 +1,7 @@
 
 import React from 'react';
 import logo from '../assets/logo.svg'
+import { Link } from 'react-router-dom';
 import '../styles/Header.css'
 
 
@@ -10,8 +11,8 @@ function Header() {
         <div className="header-flex">
             <img src={logo} alt="logo de kasa" className="kasa-logo"></img>
             <nav className="header-nav">
-                <a href="home" className="home-link" >Accueil</a>
-                <a href="about" className="about-link">A propos</a>
+                <Link to="home" className="home-link" >Accueil</Link>
+                <Link to="about" className="about-link">A propos</Link>
             </nav>
         </div>
     )
