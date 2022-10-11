@@ -1,0 +1,30 @@
+
+.dropdown-box {
+    width: 582px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.dropdown-button {
+    width: 582px;
+    height: 52px;
+    background: #FF6060;
+    color: #FFFFFF;
+}
+
+.dropdown-label{
+    width: 582px;
+    height: 52px;
+    border: 2px solid blue;
+}
+
+.dropdown-check:checked ~ .data-div {
+    display: block;
+}
+
+.data-div {
+    width: 582px;
+    height: 235px;
+    background: #F7F7F7;
+    display: none;
+}

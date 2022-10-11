@@ -1,0 +1,19 @@
+.aboutBanner-bg {
+    margin-top: 80px;
+    position: relative;
+}
+
+.aboutBanner-image, .aboutBanner-layer {
+width: 1240px;
+height: 223px;
+border-radius: 25px;
+
+}
+
+.aboutBanner-layer
+{
+    background: #000000;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+}

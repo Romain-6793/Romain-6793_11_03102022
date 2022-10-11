@@ -1,8 +1,12 @@
 import React from 'react';
+import NoMainWrapper from '../components/nopage/NoMainWrapper';
+import Footer from '../components/Footer';
 
 function NoPage() {
     return (
-        <h1>this is the No page</h1>
+        <div>
+        <NoMainWrapper /> <Footer />
+        </div>
     );
 }
 
