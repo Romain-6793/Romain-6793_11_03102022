@@ -1,0 +1,35 @@
+
+.dropdown-box2 {
+    width: 1023px;
+    position: relative;
+    margin-top: 33px;
+}
+
+.dropdown-button2 {
+    width: 1023px;
+    height: 52px;
+    background: #FF6060;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.arrow-up, .arrow-down {
+    position: absolute;
+    right: 25px;
+    top: 16.8px;
+}
+
+.data-div2 {
+    width: 1023px;
+    height: 100px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin-bottom: 33px;
+}
