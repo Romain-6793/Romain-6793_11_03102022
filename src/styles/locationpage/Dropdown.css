@@ -1,8 +1,7 @@
 
 .dropdown-box {
     width: 582px;
-    display: flex;
-    flex-flow: column wrap;
+    position: relative;
 }
 
 .dropdown-button {
@@ -10,21 +9,25 @@
     height: 52px;
     background: #FF6060;
     color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    z-index: 2;
 }
 
-.dropdown-label{
-    width: 582px;
-    height: 52px;
-    border: 2px solid blue;
-}
-
-.dropdown-check:checked ~ .data-div {
-    display: block;
+.arrow-up, .arrow-down {
+    position: absolute;
+    right: 25px;
+    top: 16.8px;
 }
 
 .data-div {
     width: 582px;
-    height: 235px;
+    height: 249px;
     background: #F7F7F7;
-    display: none;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
 }

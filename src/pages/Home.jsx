@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 function Home() {
     return (
         <div>
-        <HomeMainWrapper /><Footer />
+            <HomeMainWrapper /><Footer />
         </div>
     );
 }

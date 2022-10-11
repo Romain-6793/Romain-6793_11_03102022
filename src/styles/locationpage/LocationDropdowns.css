@@ -1,7 +1,8 @@
 .dropdowns-wrapper {
     width: 1240px;
+    height: 230px;
     display: flex;
     flex-flow: row wrap;
     justify-content : space-between;
-    border: 1px solid black;
+    
 }

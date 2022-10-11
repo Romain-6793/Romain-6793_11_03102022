@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 function NoPage() {
     return (
         <div>
-        <NoMainWrapper /> <Footer />
+            <NoMainWrapper /><Footer />
         </div>
     );
 }

@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 function About() {
     return (
         <div>
-        <AboutMainWrapper /><Footer />
+            <AboutMainWrapper /><Footer />
         </div>
     );
 }

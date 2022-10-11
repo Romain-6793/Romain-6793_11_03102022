@@ -1,4 +1,10 @@
 .main-wrapper {
+display: flex;
+flex-flow: column wrap;
+align-items: center;
 margin-left: 10%;
 margin-right: 10%;
+
 }
+
+/* Les marges ne fonctionnent plus donc j'ai mis un flex */
