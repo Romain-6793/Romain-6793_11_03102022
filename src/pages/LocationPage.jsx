@@ -1,12 +1,14 @@
 import React from 'react';
-import LocMainWrapper from '../components/locationpage/LocMainWrapper';
 import Footer from '../components/Footer'
+import LocationBanner from '../components/locationpage/LocationBanner';
+import LocationDropdowns from '../components/locationpage/LocationDropdowns';
+import LocationInfo from '../components/locationpage/LocationInfo';
 
 
 function LocationPage() {
     return (
         <div>
-            <LocMainWrapper /><Footer/>
+            <LocationBanner /><LocationDropdowns /><LocationInfo /><Footer/>
         </div>
     );
 }

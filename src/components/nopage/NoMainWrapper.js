@@ -1,4 +1,4 @@
-import "../../styles/MainWrapper.css"
+
 import "../../styles/nopage/NoPage.css"
 import { Link } from "react-router-dom"
 
