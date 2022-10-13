@@ -13,8 +13,8 @@ import kasa from './datas/datas.json';
 function App() {
 
   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  // const [loading, setLoading] = useState(true);
+  // const [error, setError] = useState(null);
 
   useEffect(() => {
     setData(kasa)
