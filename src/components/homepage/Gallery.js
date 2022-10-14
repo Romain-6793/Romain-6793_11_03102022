@@ -5,21 +5,23 @@ import { useState, useEffect } from 'react'
 import kasa from '../../datas/datas.json'
 
 
-
-
-
 function Gallery() {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        setData(kasa)
-    }, [])
 
+        if (kasa) {
+            setData(kasa)
+        }
+    }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        , [kasa])
+    console.log(kasa)
     console.log(data)
 
     return (
         <div className="gallery-container">
-            {data.map(({ id, title }) =>
+            {kasa.map(({ id, title }) =>
                 <Location
                     key={id}
                     id={id}

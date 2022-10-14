@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -17,22 +17,30 @@ function App() {
   // const [error, setError] = useState(null);
 
   useEffect(() => {
-    setData(kasa)
-  }, [])
+
+    if (kasa) {
+      setData(kasa)
+    }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [kasa])
+  console.log(kasa)
   console.log(data)
 
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="location" element={<LocationPage />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
+      <Switch>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="home" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="location" element={<LocationPage />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </Switch>
     </BrowserRouter>
 
   );
