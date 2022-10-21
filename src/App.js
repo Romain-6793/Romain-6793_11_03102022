@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Switch, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -30,17 +30,15 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Switch>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="home" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="location" element={<LocationPage />} />
-            <Route path="*" element={<NoPage />} />
-          </Route>
-        </Routes>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Layout data={kasa} />}>
+          <Route index element={<Home data={kasa} />} />
+          <Route path="home" element={<Home data={kasa} />} />
+          <Route path="about" element={<About data={kasa} />} />
+          <Route path="location" element={<LocationPage data={kasa} />} />
+          <Route path="*" element={<NoPage data={kasa} />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
 
   );
