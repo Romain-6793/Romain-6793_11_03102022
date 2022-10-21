@@ -3,7 +3,11 @@ import { Link } from 'react-router-dom'
 
 function Location(props) {
 
+    const data = props.data
     const title = props.title
+
+    console.log(data)
+    console.log(title)
 
     return (
         <div className="location">
