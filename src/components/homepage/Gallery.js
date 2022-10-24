@@ -1,8 +1,7 @@
 
 import '../../styles/homepage/Gallery.css'
 import Location from './Location'
-import { useState, useEffect } from 'react'
-import kasa from '../../datas/datas.json'
+
 
 
 function Gallery(props) {

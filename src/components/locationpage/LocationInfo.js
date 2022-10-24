@@ -2,7 +2,10 @@
 import '../../styles/locationpage/LocationInfo.css'
 import star from '../../assets/star.svg'
 
-function LocationInfo() {
+function LocationInfo(props) {
+
+
+
     return (
         <div className="info-bigwrapper">
             <div className="location-info">

@@ -6,12 +6,13 @@ function Location(props) {
     const data = props.data
     const title = props.title
 
+
     console.log(data)
     console.log(title)
 
     return (
         <div className="location">
-            <Link to="/location/:id" className="location-link">
+            <Link to={`/location/${title}`} className="location-link">
                 <div className="location-layer">
                     <span className="location-minititle">{title}</span>
                     {/* <span className="location-minititle">Titre de la Location</span> */}

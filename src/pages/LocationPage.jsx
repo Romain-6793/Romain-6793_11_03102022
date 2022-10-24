@@ -8,14 +8,36 @@ import {useParams} from 'react-router-dom'
 function LocationPage(props) {
 
 
-    const params = useParams()
-    console.log(params)
+    const {title} = useParams()
     const data = props.data
-    console.log(data)
+    console.log({title})
+
+    
 
     return (
         <div>
-            <LocationBanner /><LocationDropdowns data={data} /><LocationInfo data={data} /><Footer/>
+            {data.filter(card => card.title === title).map((card, index) => (
+                <div key={index}>
+                <LocationBanner 
+                data={data} 
+                cover={card.cover} 
+                />
+                <LocationInfo 
+                data={data} 
+                title={card.title}
+                ownerName={card.host.name}
+                ownerPicture={card.host.picture}
+                rating={card.rating}
+                tags={card.tags}
+                />
+                <LocationDropdowns 
+                data={data} 
+                description={card.description} 
+                equipments={card.equipments}
+                />
+                </div> 
+            ))}
+            <Footer/>
         </div>
     );
 }
