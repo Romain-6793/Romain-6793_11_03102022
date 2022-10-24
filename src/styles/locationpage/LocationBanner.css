@@ -1,4 +1,8 @@
 
 .location-banner {
     margin-top: 20px;
+    border-radius: 25px;
+    width: 1240px;
+    height: 415px;
+    object-fit: cover;
 }

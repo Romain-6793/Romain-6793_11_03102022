@@ -1,8 +1,11 @@
 
-import locationBanner from '../../assets/location-banner.png'
+
 import '../../styles/locationpage/LocationBanner.css'
 
-function LocationBanner() {
+function LocationBanner(props) {
+
+    const locationBanner = props.cover
+
     return (
         <div>
             <img src={locationBanner} alt=" vue de l'appartement à louer" className="location-banner"></img>

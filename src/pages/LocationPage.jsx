@@ -25,6 +25,7 @@ function LocationPage(props) {
                 <LocationInfo 
                 data={data} 
                 title={card.title}
+                subtitle={card.location}
                 ownerName={card.host.name}
                 ownerPicture={card.host.picture}
                 rating={card.rating}

@@ -14,8 +14,11 @@
 }
 
 .location-info {
-    width: 635px;
-    height: 90px;
+    width: 1035px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    border: 1px solid black;
 }
 
 .owner-info {
@@ -24,21 +27,17 @@
 }
 
 .location-title {
-    width: 635px;
+    width: 1035px;
     font-size: 36px;
     font-weight: normal;
     color: #FF6060;
-    position: absolute;
-    top: -40px;
-    left: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .location-subtitle, .owner-name {
     font-size: 18px;
     color: #FF6060;
-    position: absolute;
-    top: 40px;
-    left: 0;
 }
 
 .owner-name {
@@ -49,8 +48,7 @@
     text-align: right;
 }
 
-.grey-circle {
-    background: #C4C4C4;
+.owner-picture {
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -73,12 +71,13 @@
 
 .tags-section {
     width: 1035px;
-    margin-top: -40px;
     display: flex;
     flex-flow: row wrap;
+    border: 1px solid black;
+    margin-top: -40px;
 }
 
-.tag-cozy, .tag-canal, .tag-paris {
+.tag {
     width: 115px;
     height: 25px;
     background: #FF6060;

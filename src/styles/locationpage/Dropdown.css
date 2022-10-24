@@ -16,6 +16,14 @@
     z-index: 2;
 }
 
+.dropdown-title {
+    font-size: 18px;
+    position: absolute;
+    left: 25px;
+    top: 16.8px;
+
+}
+
 .arrow-up, .arrow-down {
     position: absolute;
     right: 25px;
@@ -30,4 +38,26 @@
     z-index: 1;
     position: absolute;
     top: 0;
+}
+
+.data-relative {
+    width: 582px;
+    position: relative;
+}
+
+.description-text, .equipments-text {
+    position: absolute;
+    width: 550px;
+    top: 70px;
+    font-size: 18px;
+    color: #FF6060;
+    list-style-type: none;
+}
+
+.description-text {
+    left: 20px;
+}
+
+.equipments-text {
+    left: -20px;  
 }
