@@ -1,0 +1,8 @@
+.dropdowns-wrapper2 {
+    width: 1240px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20px; 
+    margin-bottom: 120px;
+}
