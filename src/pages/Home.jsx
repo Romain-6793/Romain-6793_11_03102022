@@ -6,7 +6,6 @@ import Gallery from '../components/homepage/Gallery';
 function Home(props) {
 
     const data = props.data
-    console.log(data)
 
     return (
         <div>

@@ -10,9 +10,6 @@ function LocationPage(props) {
 
     const {title} = useParams()
     const data = props.data
-    console.log({title})
-
-    
 
     return (
         <div>

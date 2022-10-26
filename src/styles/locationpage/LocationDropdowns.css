@@ -1,5 +1,14 @@
 .dropdowns-wrapper {
     width: 1240px;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content : space-between;
+    margin-top: 20px; 
+}
+
+.dropdowns-wrapper-extended {
+    width: 1240px;
     height: 230px;
     display: flex;
     flex-flow: row wrap;

@@ -7,9 +7,6 @@ import Location from './Location'
 function Gallery(props) {
 
     const data = props.data
-    console.log(data)
-
-
 
     return (
         <div className="gallery-container">

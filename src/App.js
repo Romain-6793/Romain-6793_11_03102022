@@ -12,6 +12,7 @@ import kasa from './datas/datas.json';
 
 function App() {
 
+  // eslint-disable-next-line no-unused-vars
   const [data, setData] = useState(null);
   // const [loading, setLoading] = useState(true);
   // const [error, setError] = useState(null);
@@ -24,8 +25,7 @@ function App() {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [kasa])
-  console.log(kasa)
-  console.log(data)
+
 
 
   return (
