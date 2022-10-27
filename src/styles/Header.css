@@ -1,4 +1,6 @@
 .header-flex {
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;

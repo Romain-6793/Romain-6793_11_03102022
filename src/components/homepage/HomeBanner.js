@@ -7,7 +7,7 @@ import '../../styles/homepage/HomeBanner.css'
 function HomeBanner() {
     return (
         <div className="homeBanner-bg">
-            <Link to="*">
+            <Link to="*" className="home">
                 <img src={homeBackground} alt="bord de mer exotique" className="homeBanner-image">
                 </img>
                 <div className="homeBanner-layer"></div>

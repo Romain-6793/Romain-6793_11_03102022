@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import HomeBanner from '../components/homepage/HomeBanner';
-import Gallery from '../components/homepage/Gallery';
+import HomeMainWrapper from '../components/homepage/HomeMainWrapper';
 
 function Home(props) {
 
@@ -9,7 +8,7 @@ function Home(props) {
 
     return (
         <div>
-            <HomeBanner /><Gallery data={data} /><Footer />
+            <HomeMainWrapper data={data} /><Footer />
         </div>
     );
 }

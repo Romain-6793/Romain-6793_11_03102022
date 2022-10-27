@@ -8,13 +8,13 @@ import '../styles/Header.css'
 
 function Header() {
     return (
-        <div className="header-flex">
+        <header className="header-flex">
             <img src={logo} alt="logo de kasa" className="kasa-logo"></img>
             <nav className="header-nav">
                 <Link to="home" className="home-link" >Accueil</Link>
                 <Link to="about" className="about-link">A propos</Link>
             </nav>
-        </div>
+        </header>
     )
 }
 
