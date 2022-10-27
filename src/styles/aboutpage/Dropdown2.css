@@ -1,15 +1,12 @@
 
-.dropdown-box2 {
+.dropdown-box2, .dropdown-box2-expanded {
     width: 80%;
     position: relative;
     margin-top: 33px;
 }
 
 .dropdown-box2-expanded {
-    width: 80%;
     height: 150px;
-    position: relative;
-    margin-top: 33px;
     margin-bottom: 33px;
 }
 

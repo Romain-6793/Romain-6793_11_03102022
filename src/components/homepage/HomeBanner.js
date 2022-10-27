@@ -10,8 +10,11 @@ function HomeBanner() {
             <Link to="*" className="home">
                 <img src={homeBackground} alt="bord de mer exotique" className="homeBanner-image">
                 </img>
-                <div className="homeBanner-layer"></div>
-                <span className="homeBanner-text">Chez vous, partout et ailleurs</span>
+                <div className="homeBanner-layer">
+                    <span className="homeBanner-text">Chez vous, partout et ailleurs
+                    </span>
+                </div>
+
             </Link>
         </div>
     )

@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.homeBanner-image, .homeBanner-layer, .homeBanner-flex {
+.homeBanner-image, .homeBanner-layer, .homeBanner-bg {
     width: 100%;
     height: 223px;
     border-radius: 25px;
@@ -21,15 +21,17 @@
     position: absolute;
     top: 0;
     opacity: 0.4;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .homeBanner-text {
     width: 705px;
     height: 68px;
     font-size: 48px;
-    position: absolute;
-    top: 75px;
-    left: 18%;
     color: #FFFFFF;
+    opacity: 1;
 
 }

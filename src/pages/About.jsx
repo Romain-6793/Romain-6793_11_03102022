@@ -1,12 +1,11 @@
 import React from 'react';
-import AboutBanner from '../components/aboutpage/AboutBanner'
-import AboutDropdowns from '../components/aboutpage/AboutDropdowns'
+import AboutMainWrapper from '../components/aboutpage/AboutMainWrapper';
 import Footer from '../components/Footer';
 
 function About() {
     return ( 
         <div>
-            <AboutBanner /><AboutDropdowns /><Footer />
+            <AboutMainWrapper /><Footer />
         </div>
     );
 }
