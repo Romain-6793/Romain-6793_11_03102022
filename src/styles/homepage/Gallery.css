@@ -12,3 +12,44 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+@media all and (max-width: 767px) {
+
+.gallery-container {
+    
+    width: 335px;
+    margin-top: 22px;
+    padding: 0;
+    background: #FFFFFF;
+    
+}
+}
+
+@media all and (min-width: 425px) and (max-width: 767px) {
+    .gallery-container {
+        width: 90%;
+        border-radius: 10px;
+    }
+
+}
+
+@media all and (min-width: 650px) and (max-width: 767px) {
+    .gallery-container {
+        padding-left: 7.5%;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 880px) {
+    .gallery-container {
+        width: 85%;
+    }
+
+}
+
+@media all and (min-width: 880px) and (max-width: 1440px) {
+    .gallery-container {
+        width: 90%;
+    }
+
+}

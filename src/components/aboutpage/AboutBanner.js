@@ -3,7 +3,7 @@ import aboutBanner from '../../assets/about-banner.png'
 import '../../styles/aboutpage/AboutBanner.css'
 
 
-function HomeBanner() {
+function AboutBanner() {
     return (
         <div className="aboutBanner-bg">
             <img src={aboutBanner} alt="panorama montagneux" className="aboutBanner-image">
@@ -13,4 +13,4 @@ function HomeBanner() {
     )
 }
 
-export default HomeBanner
+export default AboutBanner

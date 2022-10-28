@@ -32,6 +32,53 @@
     height: 68px;
     font-size: 48px;
     color: #FFFFFF;
-    opacity: 1;
+    
 
+}
+
+@media all and (max-width: 767px) {
+
+
+    .homeBanner-bg{
+        margin-top: 19.71px;
+    }
+
+    .homeBanner-image, .homeBanner-layer, .homeBanner-bg {
+        width: 335px;
+        height: 111px;
+        border-radius: 10px;
+    }
+
+    .homeBanner-layer{
+        justify-content: flex-start;
+    }
+
+    .homeBanner-text {
+        width: 217px;
+        font-size: 24px;
+        position: absolute;
+        left: 4%;
+    }
+
+}
+
+@media all and (min-width: 425px) and (max-width: 767px) {
+    .homeBanner-image, .homeBanner-bg {
+        width: 95%;
+        padding-left: 0.5%;
+    }
+    
+    .homeBanner-layer {
+        width: 95%;
+        padding-left: 0;
+    }
+}
+
+@media all and (min-width: 650px) and (max-width: 767px) {
+    .homeBanner-image, .homeBanner-bg {
+        width: 95%;
+        padding-left: 2%;
+    }
+    
+    
 }

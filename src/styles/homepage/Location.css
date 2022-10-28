@@ -8,13 +8,15 @@
     position: relative;
     background: #FF6060;
     margin-bottom: 50px;
+    z-index: 1;
 }
 
 .location-layer {
     position: absolute;
     background : linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     top: 0;
-    left: 0;   
+    left: 0; 
+    z-index: 2;  
 }
 
 .location-minititle {
@@ -26,3 +28,56 @@
     color: #FFFFFF
 }
 
+@media all and (max-width: 767px) {
+
+
+    .location, .location-layer {
+        height: 255px;
+        border-radius: 10px;
+    }
+
+    .location {
+        margin-bottom: 20px;
+        width: 400px;
+    }
+
+    .location-layer {
+        width: 335px;
+    }
+
+    
+
+}
+
+@media all and (min-width: 425px) and (max-width: 649px) {
+    .location {
+        width: 100%;
+    }
+
+    .location-layer {
+        width: 100%;
+    }
+
+}
+
+@media all and (min-width: 650px) and (max-width: 880px) {
+    .location {
+        width: 90%;
+    }
+
+    .location-layer {
+        width: 100%;
+    }
+
+}
+
+/* @media all and (min-width: 650px) and (max-width: 767px) {
+    .location {
+        width: 90%;
+    }
+
+    .location-layer {
+        width: 100%;
+    }
+
+} */
