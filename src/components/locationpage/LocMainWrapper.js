@@ -16,6 +16,7 @@ function LocMainWrapper(props) {
                     <LocationBanner
                         data={data}
                         cover={card.cover}
+                        pictures={card.pictures}
                     />
                     <LocationInfo
                         data={data}

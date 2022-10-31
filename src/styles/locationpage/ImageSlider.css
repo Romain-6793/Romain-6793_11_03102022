@@ -1,0 +1,44 @@
+
+.image-slider {
+    position: relative
+}
+
+.slide {
+    width: 100%;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+.left-arrow-btn, .right-arrow-btn {
+    width: 60px;
+    height: 90px;
+    position : absolute;
+    top: 149.23px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 2
+    
+
+}
+
+.left-arrow-btn {
+    left: 23.36px;
+    
+}
+
+.right-arrow-btn {
+    right: 23.36px;
+    
+}
+
+.counter {
+    position : absolute;
+    top: 85%;
+    left: 47.5%;
+    z-index: 2;
+    color: #FFFFFF;
+}
