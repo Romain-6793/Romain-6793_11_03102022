@@ -42,3 +42,46 @@
     z-index: 2;
     color: #FFFFFF;
 }
+
+@media all and (max-width: 767px) {
+
+    .slide {
+        height: 255px;
+        border-radius: 10px;
+    }
+
+
+    .left-arrow-btn, .right-arrow-btn {
+        width: 12px;
+        height: 20px;
+        position : absolute;
+        top: 45%;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 2
+        
+    
+    }
+
+    .arrow {
+        width: 12px;
+        height: 20px;
+    }
+    
+    .left-arrow-btn {
+        left: 5.84px;
+        
+    }
+    
+    .right-arrow-btn {
+        right: 15px;
+        
+    }
+
+    .counter {
+        display: none;
+    }
+
+
+}

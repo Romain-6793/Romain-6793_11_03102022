@@ -15,3 +15,14 @@
     justify-content : space-between;
     margin-top: 20px;
 }
+
+@media all and (max-width: 767px) {
+
+    .dropdowns-wrapper {
+        height: 160px;
+    }
+
+    /* .dropdowns-wrapper-extended {
+        height: 550px;
+    } */
+}

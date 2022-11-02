@@ -7,9 +7,9 @@ function Home(props) {
     const data = props.data
 
     return (
-        <div>
+        <>
             <HomeMainWrapper data={data} /><Footer />
-        </div>
+        </>
     );
 }
 

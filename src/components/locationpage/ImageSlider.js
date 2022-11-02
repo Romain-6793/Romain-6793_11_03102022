@@ -25,9 +25,9 @@ function ImageSlider(props) {
         <div className="image-slider">
             <img className="slide" src={`${slides[currentIndex]}`} alt="vue de l'appartement"></img>
             <button className="left-arrow-btn" onClick={goToPrev}>
-                <img src={leftArrow} alt="aller à la slide précédente"></img></button>
+                <img src={leftArrow} alt="aller à la slide précédente" className="arrow"></img></button>
             <button className="right-arrow-btn" onClick={goToNext}>
-                <img src={rightArrow} alt="aller à la slide suivante"></img></button>
+                <img src={rightArrow} alt="aller à la slide suivante" className="arrow"></img></button>
             <span className="counter">{currentIndex + 1}/{slides.length}</span>
         </div>
     )

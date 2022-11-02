@@ -3,6 +3,7 @@ import '../../styles/locationpage/LocationDropdowns.css'
 import DescDropdown from './DescDropdown'
 import EqDropdown from './EqDropdown'
 import { useState } from 'react'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 
 function LocationDropdowns(props) {
@@ -14,6 +15,7 @@ function LocationDropdowns(props) {
     const description = props.description
     const equipments = props.equipments
 
+    const isSmall = useMediaQuery('(max-width:600px)')
 
     return isDesOpen || isEqOpen ? (
         <div className="dropdowns-wrapper-extended">

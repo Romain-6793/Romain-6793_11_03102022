@@ -18,21 +18,21 @@ function LocationInfo(props) {
             <div className="location-info">
                 <h1 className="location-title">{title}</h1>
                 <span className="location-subtitle">{subtitle}</span>
+                <div className="tags-section">
+                    {tags.map((tag, index) => (
+                        <div className="tag" key={index}>{tag}</div>
+                    ))}
+                </div>
             </div>
             <div className="owner-info">
                 <span className="owner-name">{ownerName}</span>
                 <img src={ownerPicture} className="owner-picture" alt="propriétaire de l'appartement"></img>
                 <div className="five-stars">
                     {range.map((rangeElem) =>
-                        rating >= rangeElem ? <img key={rangeElem} alt="étoile" src={filledStar}></img> :
-                            <img key={rangeElem} alt="étoile" src={star}></img>
+                        rating >= rangeElem ? <img key={rangeElem} alt="étoile" src={filledStar} className="star"></img> :
+                            <img key={rangeElem} alt="étoile" src={star} className="star"></img>
                     )}
                 </div>
-            </div>
-            <div className="tags-section">
-                {tags.map((tag, index) => (
-                    <div className="tag" key={index}>{tag}</div>
-                ))}
             </div>
         </div>
     )
