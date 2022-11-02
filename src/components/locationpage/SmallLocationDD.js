@@ -5,8 +5,9 @@ import EqDropdown from './EqDropdown'
 import { useState } from 'react'
 
 
+function SmallLocationDD(props) {
 
-function LocationDropdowns(props) {
+
 
     const [isDesOpen, setIsDesOpen] = useState(false)
     const [isEqOpen, setIsEqOpen] = useState(false)
@@ -49,4 +50,4 @@ function LocationDropdowns(props) {
     )
 }
 
-export default LocationDropdowns
+export default SmallLocationDD
