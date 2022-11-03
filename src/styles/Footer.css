@@ -16,10 +16,7 @@
 }
 
 @media all and (max-width:767px) {
-    .footer {
-        width: 95%;
-    }
-
+    
     .footer-subtitle {
         font-size: 12px;
     }

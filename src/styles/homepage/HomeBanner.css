@@ -32,8 +32,10 @@
     height: 68px;
     font-size: 48px;
     color: #FFFFFF;
-    
+}
 
+.homeBanner-span1, .homeBanner-span2 {
+    display: none;
 }
 
 @media all and (max-width: 767px) {
@@ -53,11 +55,25 @@
         justify-content: flex-start;
     }
 
-    .homeBanner-text {
+    .homeBanner-span1, .homeBanner-span2 {
+        display: block;
         width: 217px;
         font-size: 24px;
         position: absolute;
+        color: #FFFFFF;
         left: 4%;
+    }
+
+    .homeBanner-span1 {
+        top: 30px;
+    }
+
+    .homeBanner-span2 {
+        top: 55px;
+    }
+
+    .homeBanner-text {
+        display: none;
     }
 
 }

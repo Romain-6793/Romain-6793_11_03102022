@@ -3,21 +3,15 @@
     margin-right: 5%;
 }
 
-/* @media all and (min-width: 425px) and (max-width: 767px)
-{
-    .main-wrapper {
-    width: 100%;
-    }
-} */
 
-@media all and (max-width: 424px) {
-    .main-wrapper {
-      width: 70%;
-    }
-  }
-  
   @media all and (min-width: 425px) and (max-width: 667px) {
     .main-wrapper {
       width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      margin: 0;
     }
+
+
   }

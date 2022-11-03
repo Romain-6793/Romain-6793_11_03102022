@@ -44,8 +44,8 @@
 @media all and (max-width: 767px) {
 
     .header-flex {
-        width: 70%;
-        padding-left: 4%;
+        width: 88%;
+        /* padding-left: 3%; */
     }
 
     .kasa-logo {
@@ -56,6 +56,7 @@
 
     .home-link, .about-link {
         font-size: 12px;
+        text-transform: uppercase;
     }
 
     .home-link {

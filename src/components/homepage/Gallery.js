@@ -11,7 +11,7 @@ function Gallery(props) {
     return (
         <div className="gallery-container">
             {data.map((index) => (
-                <Location data={data} title={index.title} key={index.id} />
+                <Location data={data} title={index.title} key={index.id} cover={index.cover} />
             ))}
         </div>
     )
