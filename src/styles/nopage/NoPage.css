@@ -25,3 +25,23 @@
     margin-top: 182px;
     margin-bottom: 100px;
 }
+
+@media all and (max-width : 1023px) {
+    .nopage-flex {
+        width: 100%;
+    }
+
+    .err404 {
+        font-size: 96px;
+    }
+
+    .sorry {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .return-home {
+        font-size: 14px;
+    }
+}
+ 
