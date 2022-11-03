@@ -14,7 +14,6 @@ function HomeBanner() {
                     <span className="homeBanner-text">Chez vous, partout et ailleurs</span>
                     <span className="homeBanner-span1">Chez vous,</span>
                     <span className="homeBanner-span2">partout et ailleurs</span>
-
                 </div>
 
             </Link>

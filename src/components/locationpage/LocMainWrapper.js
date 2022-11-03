@@ -8,11 +8,11 @@ import SmallLocationDD from './SmallLocationDD';
 
 function LocMainWrapper(props) {
 
-    const [isSmall, setIsSmall] = useState({ matches: window.matchMedia("(max-width: 767px)").matches });
+    const [isSmall, setIsSmall] = useState({ matches: window.matchMedia("(max-width: 1024px)").matches });
 
     function screenListener() {
         const handler = e => setIsSmall({ matches: e.matches });
-        window.matchMedia("(max-width: 767px)").addEventListener('change', handler);
+        window.matchMedia("(max-width: 1024px)").addEventListener('change', handler);
     }
 
     screenListener()
@@ -20,7 +20,7 @@ function LocMainWrapper(props) {
     const { title } = useParams()
     const data = props.data
 
-    return isSmall ? (
+    return isSmall.matches ? (
         <div className="main-wrapper">
             {data.filter(card => card.title === title).map((card, index) => (
                 <div key={index}>
@@ -73,7 +73,6 @@ function LocMainWrapper(props) {
             ))}
         </div>
     )
-
 }
 
 export default LocMainWrapper

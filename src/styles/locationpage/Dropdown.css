@@ -65,13 +65,30 @@
 @media all and (max-width: 767px) {
     .dropdown-box {
         width: 100%;
+        height: 29.93px;
         
     }
 
     
     .description-text, .equipments-text {
         width: 90%;
+        font-size: 13px;
     }
 }
-    
+
+@media all and (min-width: 767px) and (max-width: 1023px) {
+    .dropdown-box {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1300px) {
+    .dropdown-box {
+        width: 45%;
+    }
+
+    .description-text, .equipments-text {
+        width: 90%;
+    }
+}
     

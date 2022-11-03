@@ -20,7 +20,7 @@ function LocationInfo(props) {
                 <span className="location-subtitle">{subtitle}</span>
                 <div className="tags-section">
                     {tags.map((tag, index) => (
-                        <div className="tag" key={index}>{tag}</div>
+                        <div className="tag" key={index}><span className="tag-text">{tag}</span></div>
                     ))}
                 </div>
             </div>
