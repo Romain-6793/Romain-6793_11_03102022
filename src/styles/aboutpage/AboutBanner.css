@@ -17,3 +17,15 @@ border-radius: 25px;
     top: 0;
     opacity: 0.4;
 }
+
+@media all and (max-width: 1023px) {
+    .aboutBanner-bg {
+        margin-top: 20px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 1023px) {
+    .aboutBanner-bg {
+        width: 90%;
+    }
+}

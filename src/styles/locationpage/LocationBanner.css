@@ -24,3 +24,12 @@
     
     
 }
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .location-banner {
+        width: 90%;
+        padding-left: 4%;
+    }
+    
+    
+}

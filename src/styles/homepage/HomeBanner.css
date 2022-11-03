@@ -78,6 +78,14 @@
 
 }
 
+@media all and (min-width: 425px) and (max-width: 650px) {
+    .homeBanner-image, .homeBanner-bg, .homeBanner-layer {
+        margin-left: 1%;
+    }
+    
+}
+
+
 @media all and (min-width: 425px) and (max-width: 767px) {
     .homeBanner-image, .homeBanner-bg {
         width: 95%;
@@ -95,6 +103,19 @@
         width: 95%;
         padding-left: 2%;
     }
-    
-    
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .homeBanner-image, .homeBanner-bg {
+        width: 95%;
+        padding-left: 2%;
+    }
+
+    .homeBanner-layer {
+        width: 95%;
+    }
+
+    .homeBanner-text {
+        padding-left: 5%;
+    }
 }

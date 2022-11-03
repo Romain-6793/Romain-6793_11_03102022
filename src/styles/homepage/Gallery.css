@@ -33,9 +33,9 @@
 
 }
 
-@media all and (min-width: 650px) and (max-width: 767px) {
+@media all and (min-width: 650px) and (max-width: 820px) {
     .gallery-container {
-        padding-left: 7.5%;
+        padding-left: 12%;
     }
 
 }

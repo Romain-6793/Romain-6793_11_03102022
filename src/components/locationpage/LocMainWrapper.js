@@ -8,11 +8,11 @@ import SmallLocationDD from './SmallLocationDD';
 
 function LocMainWrapper(props) {
 
-    const [isSmall, setIsSmall] = useState({ matches: window.matchMedia("(max-width: 1024px)").matches });
+    const [isSmall, setIsSmall] = useState({ matches: window.matchMedia("(max-width: 1023px)").matches });
 
     function screenListener() {
         const handler = e => setIsSmall({ matches: e.matches });
-        window.matchMedia("(max-width: 1024px)").addEventListener('change', handler);
+        window.matchMedia("(max-width: 1023px)").addEventListener('change', handler);
     }
 
     screenListener()

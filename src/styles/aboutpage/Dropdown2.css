@@ -63,3 +63,41 @@
 .special-data-div {
     height: 246px;
 }
+
+@media all and (max-width: 1023px) {
+    
+    .dropdown-box2-expanded {
+        height: 450px;
+        margin-bottom: 0;
+    }
+
+    .data-div2 {
+        height: 350px;
+    }
+
+    .special-data-div {
+        height: 590px;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .dropdown-box2-expanded {
+        height: 300px;
+    }
+
+    .data-div2 {
+        height: 200px;
+    }
+
+    .special-data-div {
+        height: 400px;
+    }
+
+}
+
+@media all and (max-width: 1440px) {
+    .data-text {
+        width: 90%;
+     }
+}
