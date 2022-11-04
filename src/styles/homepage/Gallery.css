@@ -35,21 +35,18 @@
 
 @media all and (min-width: 650px) and (max-width: 820px) {
     .gallery-container {
-        padding-left: 12%;
-    }
-
-}
-
-@media all and (min-width: 768px) and (max-width: 880px) {
-    .gallery-container {
-        width: 85%;
-    }
-
-}
-
-@media all and (min-width: 880px) and (max-width: 1440px) {
-    .gallery-container {
         width: 90%;
     }
 
 }
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .gallery-container {
+        width: 85%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+}
+

@@ -8,6 +8,7 @@ function ImageSlider(props) {
 
     const [currentIndex, setCurrentIndex] = useState(0)
     const slides = props.slides
+    const [hasOnePicture] = useState(slides.length === 1)
 
     const goToPrev = () => {
         const isFirstSlide = currentIndex === 0
@@ -21,7 +22,12 @@ function ImageSlider(props) {
         setCurrentIndex(newIndex)
     }
 
-    return (
+    return hasOnePicture ? (
+        <div className="image-slider">
+            <img className="slide" src={`${slides[currentIndex]}`} alt="vue de l'appartement"></img>
+            <span className="counter">{currentIndex + 1}/{slides.length}</span>
+        </div>
+    ) : (
         <div className="image-slider">
             <img className="slide" src={`${slides[currentIndex]}`} alt="vue de l'appartement"></img>
             <button className="left-arrow-btn" onClick={goToPrev}>
