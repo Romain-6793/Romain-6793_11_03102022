@@ -35,7 +35,7 @@ function App() {
           <Route index element={<Home data={kasa} />} />
           <Route path="home" element={<Home data={kasa} />} />
           <Route path="about" element={<About data={kasa} />} />
-          <Route path="location/:title" element={<LocationPage data={kasa} />} />
+          <Route path="location/:id" element={<LocationPage data={kasa} />} />
           <Route path="*" element={<NoPage data={kasa} />} />
         </Route>
       </Routes>

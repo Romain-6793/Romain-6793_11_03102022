@@ -5,10 +5,11 @@ function Location(props) {
 
     const title = props.title
     const cover = props.cover
+    const id = props.id
 
     return (
         <div className="location">
-            <Link to={`/location/${title}`} className="location-link">
+            <Link to={`/location/${id}`} className="location-link">
                 <div className="cover-picture" style={{ backgroundImage: `url(${cover})` }}>
                     <div className="location-layer">
                         <span className="location-minititle">{title}</span>

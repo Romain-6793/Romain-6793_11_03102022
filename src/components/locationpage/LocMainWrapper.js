@@ -17,12 +17,12 @@ function LocMainWrapper(props) {
 
     screenListener()
 
-    const { title } = useParams()
+    const { id } = useParams()
     const data = props.data
 
     return isSmall.matches ? (
         <div className="main-wrapper">
-            {data.filter(card => card.title === title).map((card, index) => (
+            {data.filter(card => card.id === id).map((card, index) => (
                 <div key={index}>
                     <LocationBanner
                         data={data}
@@ -48,7 +48,7 @@ function LocMainWrapper(props) {
         </div>
     ) : (
         <div className="main-wrapper">
-            {data.filter(card => card.title === title).map((card, index) => (
+            {data.filter(card => card.id === id).map((card, index) => (
                 <div key={index}>
                     <LocationBanner
                         data={data}

@@ -10,7 +10,7 @@ function Dropdown2(props) {
     //isOpen qui est le booléen, et et 2ème élément, setIsOpen, qui est la fonction de mise à jour
     // de ce booléen
 
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
     const title = props.title
     const text = props.text
     const className = props.className
